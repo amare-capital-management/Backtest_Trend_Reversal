@@ -22,7 +22,7 @@ add_features_v1_basic: Adds specific features for the strategy, such as:
 Whether the price is below the 200-day moving average.
 Whether the price deviation from the moving average exceeds a threshold.
 
-*5. Trading Strategy Logic:*
+*4. Trading Strategy Logic:*
 
 Position Sizing:
 Determines the desired position size based on signals like hammer candlestick patterns, price below moving average, and volatility.
@@ -32,14 +32,14 @@ Sets profit targets for long trades.
 Special Situations:
 Closes positions during volatility spikes or if the maximum trade duration is exceeded.
 
-*6. Backtesting:*
+*5. Backtesting:*
 
 run_all_tickers:
 Runs the backtest for all tickers using the run_backtest_for_ticker function.
 Saves performance metrics and trade data to CSV files.
 Calculates the SQN (System Quality Number), a measure of strategy performance.
 
-*7. Bearish Signal Generation:*
+*6. Bearish Signal Generation:*
 
 process_ticker:
 Identifies bearish signals based on conditions like shooting star candlestick patterns, price above the moving average, and low volatility.
@@ -47,18 +47,18 @@ generate_bearish_signals:
 Processes multiple tickers in parallel to generate bearish signals.
 Saves the results to a CSV file (bearish_signals.csv).
 
-*8. Logging and Outputs:*
+*7. Logging and Outputs:*
 
 Logs detailed information about the data and strategy execution.
 Saves results like performance metrics, trade data, and bearish signals to CSV files.
 
-*9. Main Execution:*
+*8. Main Execution:*
 
 Initializes strategy parameters (e.g., profit targets, stop-loss multipliers).
 Runs the backtest for all tickers and calculates the average SQN.
 Generates bearish signals for all tickers and saves the results.
 
-*10.Purpose:*
+*Purpose:*
 
 This script is a quantitative trading tool designed to:
 Backtest a trend reversal strategy using historical stock data.
@@ -68,4 +68,3 @@ Evaluate the strategy's performance using metrics like SQN.
 ### It is useful for traders and analysts looking to automate the process of strategy testing and signal generation
 It is useful for traders and analysts looking to automate the process of strategy testing and signal generation.
 
-GPT-4o • 1x
