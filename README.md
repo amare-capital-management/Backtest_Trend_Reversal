@@ -66,5 +66,3 @@ Identify bearish signals for potential short trades.
 Evaluate the strategy's performance using metrics like SQN.
 
 ### It is useful for traders and analysts looking to automate the process of strategy testing and signal generation
-It is useful for traders and analysts looking to automate the process of strategy testing and signal generation.
-
